@@ -3,6 +3,7 @@ You don't have a USB Killer and you still wanna destroy your school computer ?
 
 WinUSBKiller is a GUI open source tool made with C++ and C# and can be used to weaponize USB sticks against windows installations.
 
+
 # How does the tool work
 
 The tool exploit an arbitrary file overwrite in windows search indexer service, with a crafted symbolic link an attacker could overwrite arbitrary files with just a USB stick.
