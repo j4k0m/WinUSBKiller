@@ -27,26 +27,39 @@ No, currently the tool is under testing for the moment it's considered as comple
 
 No, for the moment there's no console tool made to exploit the issue.
 
-# Someone exploited the issue in my PC
+# Someone kids exploited the issue in my PC what can I do ?
 
 Consider reinstalling windows.
 
-# How to fix the USB after the infection
+# How to fix the USB after the infection ?
 
 Use linux to format the USB
 
-# Does the tool work with Mac, linux, android, IOS ...
+# Does the tool work with Mac, linux, android, IOS ...?
 
 No the tool only work on windows and only exploit windows machines.
 
-# Why does the tool work only with NTFS drives
+# Why does the tool work only with NTFS drives ?
 
 Because only NTFS drives are supported by windows, and allow the creation of symbolic link and data stream.
-
-# For what purpose the tool was made for
+ 
+# Who created the tool and for what purpose the tool was made for ?
 
 The tool was made for offensive pentesting, security researchers and educational purposes.
+It was written by Abdelhamid Naceri
 
-# What are the windows installations affected by the USB exploit
+# What are the windows installations affected by the USB exploit ?
 
 Currently, the tool has been tested on Windows 10 20H2 with latest security patches, while the tool wasn't tested against windows server, windows 8 and windows 7. But I assume that the bug exist on all default windows installations.
+
+# What are the privileges required to exploit the issue ?
+
+No privileges are required to exploit the issue, the only thing you might need is to have phisycal access (e.g pluging the USB stick in the pc). The exploit will also work from the lockscreen and no need to login or to unlock the screen.
+
+# How much time is required to exploit the issue
+
+As soon windows machine recognize the infected USB stick, it will trigger the exploit. Let's say about 2-4 second is enough.
+
+
+
+
