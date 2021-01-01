@@ -17,6 +17,11 @@ The tool will choose a random driver to be target in the overwrite operation so 
 
 If you know the path to a specific file and you want to overwrite it, you can choose this option. The tool will allow to specify the file to overwrite, so as soon as you plug the USB stick you can overwrite or create the target file or directory.
 
+
+# How to run
+
+Make sure to install .NET framework 4.7.2 and also make sure to put "WUSBKiller.exe" and "WUSBKillerLib.dll" in the same directory, and run it as administrator.
+
 # FAQ
 
 # The tool is it safe ?
@@ -62,4 +67,4 @@ As soon windows machine recognize the infected USB stick, it will trigger the ex
 
 
 
-
+# Use the tool responsibly I am not responsible for any damage, exploits or broken devices.
